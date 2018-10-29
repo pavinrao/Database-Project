@@ -1,0 +1,62 @@
+
+<html>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+   	margin-left:8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+body{
+  /*background-image:url("shoes.jpg");*/
+  background-color: #A0522D;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:auto;
+    width:50%;
+}
+</style>
+<body>
+<div>
+<!-- Insert new student into the student table and fetch out his or her id, fname, mname, and lname -->
+<form action="insert_repair.php" method="post">
+<h3>Repair Form</h3>
+Repair Number: <input type = "text" name = "Repair_num" placeholder="Enter the repair number"><br>
+Repar Form: <input type = "text" name = "Repair_form" placeholder="Enter the repair form number"><br>
+Product Code: <input type = "text" name = "Product_Code" placeholder="Enter the product code"><br>
+Warranty ID: <input type = "text" name = "Warranty_ID" placeholder="Enter the Warranty ID"><br>
+Pro Number: <input type = "text" name ="Pro_Num" placeholder="Enter the pro number"><br>
+Repair Lcoation ID: <input type = "text" name ="Repair_Location_ID" placeholder="Enter the repair location ID"><br>
+Customer ID: <input type = "text" name = "Cust_ID" placeholder="Enter customer ID"><br>
+Tracking ID: <input type ="text" name= "Tracking_ID" placeholder="Enter the tracking ID"><br>
+Department: <input type ="text" name= "Department" placeholder="Enter the department"><br>
+Repair Detail: <input type ="text" name= "Rep_Detail" placeholder="Enter the repair detail"><br>
+<input type = "submit" name ="save">
+</form>
+</div>
+</body>
+</html>
